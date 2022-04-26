@@ -1,0 +1,90 @@
+[
+    {
+        "nodeType": "Stmt_Function",
+        "byRef": false,
+        "name": {
+            "nodeType": "Identifier",
+            "name": "test",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "params": [
+            {
+                "nodeType": "Param",
+                "type": null,
+                "byRef": false,
+                "variadic": false,
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "foo",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    }
+                },
+                "default": null,
+                "flags": 0,
+                "attrGroups": [],
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            }
+        ],
+        "returnType": null,
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "name": {
+                        "nodeType": "Name",
+                        "parts": [
+                            "var_dump"
+                        ],
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        }
+                    },
+                    "args": [
+                        {
+                            "nodeType": "Arg",
+                            "name": null,
+                            "value": {
+                                "nodeType": "Expr_Variable",
+                                "name": "foo",
+                                "attributes": {
+                                    "startLine": 5,
+                                    "endLine": 5
+                                }
+                            },
+                            "byRef": false,
+                            "unpack": false,
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            }
+                        }
+                    ],
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    }
+                },
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                }
+            }
+        ],
+        "attrGroups": [],
+        "namespacedName": null,
+        "attributes": {
+            "startLine": 3,
+            "endLine": 6
+        }
+    }
+]

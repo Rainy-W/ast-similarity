@@ -1,0 +1,247 @@
+[
+    {
+        "nodeType": "Stmt_Function",
+        "byRef": false,
+        "name": {
+            "nodeType": "Identifier",
+            "name": "test",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "params": [
+            {
+                "nodeType": "Param",
+                "type": null,
+                "byRef": false,
+                "variadic": false,
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "foo",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    }
+                },
+                "default": null,
+                "flags": 0,
+                "attrGroups": [],
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            }
+        ],
+        "returnType": null,
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "name": {
+                        "nodeType": "Name",
+                        "parts": [
+                            "var_dump"
+                        ],
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        }
+                    },
+                    "args": [
+                        {
+                            "nodeType": "Arg",
+                            "name": null,
+                            "value": {
+                                "nodeType": "Expr_Variable",
+                                "name": "foo",
+                                "attributes": {
+                                    "startLine": 5,
+                                    "endLine": 5
+                                }
+                            },
+                            "byRef": false,
+                            "unpack": false,
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            }
+                        }
+                    ],
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    }
+                },
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "country",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "name": {
+                            "nodeType": "Name",
+                            "parts": [
+                                "ip_visitor_country"
+                            ],
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            }
+                        },
+                        "args": [],
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    }
+                },
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "region",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "name": {
+                            "nodeType": "Name",
+                            "parts": [
+                                "ip_visitor_region"
+                            ],
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7
+                            }
+                        },
+                        "args": [],
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    }
+                },
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                }
+            }
+        ],
+        "attrGroups": [],
+        "namespacedName": null,
+        "attributes": {
+            "startLine": 3,
+            "endLine": 8
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "admin_email",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                }
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "value": "edwin.paternina@yandex.com,debtot767@gmail.com",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9,
+                    "kind": 2
+                }
+            },
+            "attributes": {
+                "startLine": 9,
+                "endLine": 9
+            }
+        },
+        "attributes": {
+            "startLine": 9,
+            "endLine": 9
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "email",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "_REQUEST",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    }
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "value": "email",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10,
+                        "kind": 1
+                    }
+                },
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                }
+            },
+            "attributes": {
+                "startLine": 10,
+                "endLine": 10
+            }
+        },
+        "attributes": {
+            "startLine": 10,
+            "endLine": 10
+        }
+    }
+]

